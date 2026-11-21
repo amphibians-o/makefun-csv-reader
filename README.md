@@ -1,5 +1,11 @@
 # csv-reader-speed: a faster drop-in for csv-reader 1.0.0
 
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/amphibians-o/makefun-csv-reader/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/amphibians-o/makefun-csv-reader/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
+Entry for the make.fun bounty [“Read broken CSV files faster, 21 November 2026”](https://make.fun/bounty/csv-reader-speed-01-run-20261121).
+
 `solve.js` is a dependency-free ES module whose `run(input)` returns, for every input `{text, header}`,
 exactly what csv-reader 1.0.0 returns: `{columns, rows, errors}` — including csv-reader's broken-row
 policy (stray CRs dropped, quote junk appended, unterminated quotes re-read as unquoted text, short rows
